@@ -116,17 +116,15 @@ button {
 .button-buy {
     display: flex;
     text-decoration: none;
-    margin: 10px;
     font-weight: bold;
+    padding: 10px;
     
 }
 
-button:hover {
+button a:hover {
     background-color: hsl(188, 78%, 41%);
     transition: 0.35s ease 0s;
-}
-
-.button-buy:hover {
+    border-radius: 15px;
     color: white;
     transition: 0.35s ease 0s;
 }
