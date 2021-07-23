@@ -91,3 +91,42 @@ header {
     width: 100%;
     max-height: 100%;
 }
+
+@media (min-width: 650px) {
+    .bikes-card {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .bikes-card {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+button {
+    border: 3px solid hsl(188, 78%, 41%);
+    background: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.button-buy {
+    display: flex;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    background-color: hsl(188, 78%, 41%);
+    transition: 0.35s ease 0s;
+}
+
+.button-buy:hover {
+    color: white;
+    transition: 0.35s ease 0s;
+}
