@@ -6,24 +6,28 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/9a6e5a9205.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
 
         <header>
-            
-            <div class="title-main">
-            <h1 class="title-bike">BIKE</h1><img class="logo" src="assets/bike-logo.svg"><h1 class="title-shop">SHOP</h1>
-            </div>
             <nav class="navbar">
-                    <ul class="nav-links">
-                        <li class="home"><a class="nav-link" href="#">Accueil</a></li>
+                <div class="brand-title">BIKE<img class="logo" src="assets/bike-logo.svg" height="80px">SHOP</div>
+            
+            <i class="fas fa-bars"></i>
+                <div class="nav-links">
+                    <ul>
+                        <li class="home"><a class="nav-link active" href="#">Accueil</a></li>
                         <li class="about"><a class="nav-link" href="#">A propos</a></li>
-                        <li class="chart"><a class="nav-link" href="cart.html">Panier</a></li>
+                        <li class="cart"><a class="nav-link" href="cart.html">Panier</a></li>
                     </ul>  
+                </div>
             </nav>
-
         </header>
+        
+
+        <div class="background-image"></div>
 
         <div class="bikes-card">
             
@@ -96,5 +100,6 @@
         </div>
         
         <script src="script.js"></script>
+        
     </body>
 </html>

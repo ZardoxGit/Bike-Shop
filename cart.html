@@ -11,19 +11,29 @@
     <body>
 
         <header>
-            
-            <div class="title-main">
-            <h1 class="title-bike">BIKE</h1><img class="logo" src="assets/bike-logo.svg"><h1 class="title-shop">SHOP</h1>
-            </div>
             <nav class="navbar">
-                    <ul class="nav-links">
-                        <li class="home"><a class="nav-link" href="index.html">Accueil</a></li>
+                <div class="brand-title">BIKE<img class="logo" src="assets/bike-logo.svg" height="80px">SHOP</div>
+            
+            <i class="fas fa-bars"></i>
+                <div class="nav-links">
+                    <ul>
+                        <li class="home"><a class="nav-link active" href="index.html">Accueil</a></li>
                         <li class="about"><a class="nav-link" href="#">A propos</a></li>
-                        <li class="chart"><a class="nav-link" href="#">Panier</a></li>
+                        <li class="cart"><a class="nav-link active" href="#">Panier</a></li>
                     </ul>  
+                </div>
             </nav>
-
         </header>
+
+        <table class="cart-grid">
+            <tr class="list-number">#</tr>
+            <tr class="picture-item">Image</tr>
+            <tr class="model-item">Modèle</tr>
+            <tr class="quantity-item">Quantité</tr>
+            <tr class="price-item">Prix</tr>
+            <tr class="total-amount">Total</tr>
+            <tr class="suppr-item">Supprimer</tr>
+        </table>
         
         <script src="script.js"></script>
     </body>
