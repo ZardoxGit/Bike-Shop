@@ -162,3 +162,41 @@ button a:hover {
     transition: 0.35s ease 0s;
 }
 
+/*CART*/
+
+.cart-grid  {
+    margin: 30px;
+    width: 100%;
+    
+}
+
+.basket-items {
+    text-align: center;
+}
+
+.basket-img {
+   width: 150px;
+}
+
+.input-cart {
+    width: 35px;
+    height: 35px;
+}
+
+.button-quantity {
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.button-suppr {
+    height: 40px;
+    width: 40px;
+}
+
+.total {
+    margin: 30px;
+    text-align: right;
+}
+

@@ -6,6 +6,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/9a6e5a9205.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -24,16 +25,34 @@
                 </div>
             </nav>
         </header>
-
+    <div class="row">
         <table class="cart-grid">
-            <tr class="list-number">#</tr>
-            <tr class="picture-item">Image</tr>
-            <tr class="model-item">Modèle</tr>
-            <tr class="quantity-item">Quantité</tr>
-            <tr class="price-item">Prix</tr>
-            <tr class="total-amount">Total</tr>
-            <tr class="suppr-item">Supprimer</tr>
+            <thead>
+                <th scope="col">#</th>
+                <th scope="col">Image</th>
+                <th scope="col">Modèle</th>
+                <th scope="col">Quantité</th>
+                <th scope="col">Prix</th>
+                <th scope="col">Total</th>
+                <th scope="col">Supprimer</th>
+            </thead>
+            <tbody>
+                <tr class="basket-items">
+                    <td>1</td>
+                    <td><img src="assets/bike-1.jpg" class="basket-img"></td>
+                    <td>BIK045</td>
+                    <td><input type="text" name="quantity" value="1" class="input-cart"><button class="button-quantity"><i class="fas fa-sync-alt"></i></button></td>
+                    <td>679€</td>
+                    <td>679€</td>
+                    <td><button class="button-suppr"><i class="fas fa-trash-alt"></i></button></td>
+                </tr>
+            </tbody>
         </table>
+    </div>
+
+    <div>
+        <h3 class="total">Total Panier : 679€</h3>
+    </div>
         
         <script src="script.js"></script>
     </body>
